@@ -24,24 +24,24 @@ npm install
 
 
 ## Cómo ejecutar el proyecto
-
-npm start
-Al ejecutar este comando se correrá solamente el front y el consumo de la API se vería afectado.
-
 npm run start-all
 Con este comando se ejecuta tanto el backend con el frontend.
+
+## Si desea ejecutar el proxy y front por separado ejecute los siguientes comandos:
 
 npm run start-back
 Este comando solo ejecutará el Backend de la aplicación.
 
-La aplicación se ejecutará en el navegador en la dirección http://localhost:3000.
+npm start
+Al ejecutar este comando se correrá solamente el front y el consumo de la API se vería afectado.
+
+
+La aplicación se ejecutará en el navegador en la dirección http://localhost:4000.
 
 
 ## Recursos y tecnologías utilizadas
 
 React: Biblioteca de JavaScript para construir interfaces de usuario.
-
-Styled-components: Biblioteca para escribir estilos CSS en componentes de React.
 
 API de datos: Se utiliza una API para obtener los datos que se mostrarán en la tabla.
 
